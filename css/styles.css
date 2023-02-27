@@ -21,13 +21,18 @@
 
 
 .nav {
+  position: fixed;
+  top: 0px;  
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
   background-color: rgba(4, 3, 71, 0.952);
   color: #fff;
-  position: relative;
+  width: 100%;
+  z-index: 1;
+  
+  
 }
 .logo {
   font-size: 32px;
@@ -54,12 +59,18 @@
 .box img{
     height:400px;
     width:400px;
-    float:right;
     margin-right:50px;
+    float: right;
     border-radius: 50%;
     position:relative;
+    top: 10%;
   
+   
+   
 }
+
+
+
 .box{
     width:4OOpx;
     height: 600px;
@@ -69,7 +80,8 @@
     height: 600px;
    
     position: relative;
-    background-color: rgb(238, 216, 21);
+    /*background-color: rgb(238, 216, 21);*/
+    background-color: #eae7dc;
    
     
     
