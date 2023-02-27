@@ -173,3 +173,28 @@
   
 }
 
+#contact h2{
+
+    text-align:center ;
+
+
+}
+
+.cont-blg p{
+    /* padding-left: 250px; */
+    padding: 20px;
+    width: 28%;
+    text-align: center;
+    display: inline-block;
+}
+
+#footer p{
+    text-align: center;
+}
+
+#contact{
+    clear: both;
+    width: 100%;
+    height: auto;
+    background-color: rgb(135, 201, 121);
+}
